@@ -1,0 +1,27 @@
+.container {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container p {
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+/*Media Queries*/
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .container p {
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container p {
+        font-size: .9rem;
+    }
+}
